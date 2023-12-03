@@ -1,0 +1,26 @@
+categories:
+  - title: "🚀 Feature"
+    labels:
+      - feature
+  - title: "🐛 Bug Fixes"
+    labels:
+      - bug
+  - title: "📖 Docs"
+    labels:
+      - docs
+autolabeler:
+  - label: "feature"
+    branch:
+      - "/^feat/i"
+      - "/^feature/i"
+  - label: "bug"
+    branch:
+      - "/^fix/"
+  - label: "docs"
+    branch:
+      - "/^docs/"
+template: |
+  ## Changes
+
+  $CHANGES
+

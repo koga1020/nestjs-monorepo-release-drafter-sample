@@ -1,0 +1,5 @@
+_extends: nestjs-monorepo-release-drafter-sample:.github/release-drafter-base-config.yml # 継承元の設定ファイルをリポジトリ名:ファイルパスで指定
+name-template: products-api@$NEXT_MAJOR_VERSION # リリースノートのタイトルはタグ名と同じにする
+tag-prefix: products-api@ # tagのprefixを指定
+include-paths: # products-apiのリリースノートに含めるファイルパスを指定
+  - "apps/products-api/"

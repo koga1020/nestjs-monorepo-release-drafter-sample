@@ -5,11 +5,7 @@ on:
     branches:
       - main
   pull_request:
-    types:
-      - edited
-      - opened
-      - reopened
-      - synchronize
+    types: [opened, reopened, synchronize]
 jobs:
   update_release_draft:
     permissions:

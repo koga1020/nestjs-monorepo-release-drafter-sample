@@ -16,11 +16,19 @@ autolabeler:
   - label: "bug"
     branch:
       - "/^fix/"
-  - label: "docs"
+  - label: "documentation"
     branch:
       - "/^docs/"
+version-resolver:
+  major:
+    labels:
+      - "major"
+  minor:
+    labels:
+      - "feature"
+  default: "patch"
+
 template: |
   ## Changes
 
   $CHANGES
-

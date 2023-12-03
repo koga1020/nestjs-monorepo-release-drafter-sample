@@ -7,7 +7,7 @@ categories:
       - bug
   - title: "📖 Docs"
     labels:
-      - docs
+      - documentation
 autolabeler:
   - label: "feature"
     branch:
